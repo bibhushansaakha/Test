@@ -66,7 +66,7 @@ template <class T>
 
 bool linkedlistQueue<T>::isFull()
 {
-    if (count == total)
+    if (count == 10)
     {
         return true;
     }

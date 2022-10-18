@@ -1,7 +1,6 @@
 #include "../include/arrayQueue.h"
 #include <iostream>
 using namespace std;
-#define total 10;
 
 
 template <class T>

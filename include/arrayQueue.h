@@ -1,6 +1,6 @@
 #ifndef arrayqueue_h
 #define arrayqueue_h
-#define total 10;
+#define total 10
 
 #include <iostream>
 #include "queue.h"
