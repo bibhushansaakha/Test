@@ -49,7 +49,7 @@ bool arrayQueue<T>::isEmpty()
 template <class T>
 bool arrayQueue<T>::isFull()
 {
-    if (frontIndex == (backIndex + 1) % total)
+    if (frontIndex == ((backIndex + 1) % total))
     {
         return true;
     }

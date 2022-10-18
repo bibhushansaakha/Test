@@ -1,6 +1,6 @@
 #ifndef linkedlistQueue_h
 #define linkedlistQueue_h
-
+#define total 10
 #include "queue.h"
 #include "linkedlist.h"
 

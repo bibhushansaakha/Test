@@ -23,7 +23,7 @@ T linkedlistQueue<T>::dequeue()
         node *n = L.head;
         L.removeFromHead();
         count--;
-        return n->data;
+        return n->input;
     }
     return -1;
 }
@@ -35,7 +35,7 @@ T linkedlistQueue<T>::front()
     {
         return -1;
     }
-    return L.head->data;
+    return L.head->input;
 }
 template <class T>
 
@@ -50,7 +50,7 @@ T linkedlistQueue<T>::back()
     {
         temp = temp->next;
     }
-    return temp->data;
+    return temp->input;
 }
 template <class T>
 
